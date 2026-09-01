@@ -1,0 +1,40 @@
+memory-augmented-chatbot/
+├── README.md
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── routes/
+│   │   ├── core/
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   └── main.py
+│   ├── tests/
+│   ├── requirements.txt
+│   └── README.md
+├── docker/
+│   ├── Dockerfile.backend
+│   ├── Dockerfile.frontend
+│   └── docker-compose.yml
+├── docs/
+│   ├── architecture.md
+│   ├── implementation-roadmap.md
+│   └── file-structure.txt
+└── frontend/
+    ├── public/
+    ├── src/
+    │   ├── app/
+    │   │   ├── evaluation/
+    │   │   ├── graph/
+    │   │   ├── login/
+    │   │   ├── memory/
+    │   │   ├── globals.css
+    │   │   ├── layout.tsx
+    │   │   └── page.tsx
+    │   └── components/
+    ├── next.config.js
+    ├── package.json
+    ├── postcss.config.js
+    ├── README.md
+    ├── tailwind.config.ts
+    └── tsconfig.json
